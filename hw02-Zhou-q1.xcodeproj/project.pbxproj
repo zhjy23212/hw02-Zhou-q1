@@ -14,6 +14,7 @@
 		B457B1831A7FFBA60093A420 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B457B1821A7FFBA60093A420 /* Images.xcassets */; };
 		B457B1861A7FFBA60093A420 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B457B1841A7FFBA60093A420 /* LaunchScreen.xib */; };
 		B457B1921A7FFBA60093A420 /* hw02_Zhou_q1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B1911A7FFBA60093A420 /* hw02_Zhou_q1Tests.m */; };
+		B4C654CE1A85AF0B004BCBE8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C654CD1A85AF0B004BCBE8 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B457B18B1A7FFBA60093A420 /* hw02-Zhou-q1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw02-Zhou-q1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B457B1901A7FFBA60093A420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B457B1911A7FFBA60093A420 /* hw02_Zhou_q1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw02_Zhou_q1Tests.m; sourceTree = "<group>"; };
+		B4C654CC1A85AF0B004BCBE8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B4C654CD1A85AF0B004BCBE8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				B457B1821A7FFBA60093A420 /* Images.xcassets */,
 				B457B1841A7FFBA60093A420 /* LaunchScreen.xib */,
 				B457B1751A7FFBA60093A420 /* Supporting Files */,
+				B4C654CC1A85AF0B004BCBE8 /* TableViewController.h */,
+				B4C654CD1A85AF0B004BCBE8 /* TableViewController.m */,
 			);
 			path = "hw02-Zhou-q1";
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				TargetAttributes = {
 					B457B1711A7FFBA60093A420 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 5XNNQ7T3K5;
 					};
 					B457B18A1A7FFBA60093A420 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -222,6 +228,7 @@
 				B457B17E1A7FFBA60093A420 /* ViewController.m in Sources */,
 				B457B17B1A7FFBA60093A420 /* AppDelegate.m in Sources */,
 				B457B1781A7FFBA60093A420 /* main.m in Sources */,
+				B4C654CE1A85AF0B004BCBE8 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +350,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "hw02-Zhou-q1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +363,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "hw02-Zhou-q1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +425,7 @@
 				B457B1971A7FFBA60093A420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B457B1981A7FFBA60093A420 /* Build configuration list for PBXNativeTarget "hw02-Zhou-q1Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +434,7 @@
 				B457B19A1A7FFBA60093A420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
+#import "ViewController.h"
+#import "TableViewController.h"
+
+
+
 @interface hw02_Zhou_q1Tests : XCTestCase
 
 @end
